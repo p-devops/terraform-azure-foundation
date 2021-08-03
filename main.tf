@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "arg" {
     purpose   = var.purpose
     ttl       = var.ttl
     foo       = "bar"
-    test      = "foo"
+    test      = "foo
     terraform = "true"
   }
 }
